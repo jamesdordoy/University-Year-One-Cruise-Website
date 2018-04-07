@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+	<!--#echo var="DATE_LOCAL"--> <p>Local Time</p>
+
+	<!--#echo var="LAST_MODIFIED"--> <p>Page Last Modified</p>
+
+	<p>I have used many Server Side Includes in my cruise website. These have been written in PHP and just as an example i have created this page</p>
+</body>
+</html>

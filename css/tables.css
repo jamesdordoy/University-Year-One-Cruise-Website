@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+table{
+	font-family:Arial, Helvetica, sans-serif;
+	padding-bottom:25px;
+	width:800px;
+	border-collapse:collapse;
+	border-radius: 5px;
+	border: 1px solid #00F;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+td{
+	font-size:1.2em;
+	border: 1px solid #00F;
+	padding: 3px 7px 2px 7px;
+	text-align:left;
+}
+
+th{
+	text-transform:uppercase;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-image: -ms-linear-gradient(bottom, #1791FC 0%, #0254A6 100%);
+	background-image: -moz-linear-gradient(bottom, #1791FC 0%, #0254A6 100%);
+	background-image: -o-linear-gradient(bottom, #1791FC 0%, #0254A6 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #1791FC), color-stop(1, #0254A6));
+	background-image: -webkit-linear-gradient(bottom, #1791FC 0%, #0254A6 100%);
+	background-image: linear-gradient(to top, #1791FC 0%, #0254A6 100%);
+	color:#fff;
+}
+
+
+tr:nth-of-type(odd){
+	background-color: #94D4FF;
+}
+
+td:first-child{
+	width:100px;
+	text-align:center;
+}
+
+td ul li{
+	list-style:none;
+	margin-left:10px;
+}
+
+td ol li{
+	margin-left:25px;
+}
+
+td:last-child{
+	width:100px;
+	text-align:center;
+}
+
+td p{
+	text-align: left;
+}
+
+td li{
+	text-align: left;	
+}
+
+td button{
+	width:100px;
+	height:30px;
+	display:block;
+	background-color:#CCC;
+	margin:3px auto;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+td button:hover{
+	background-color:#999;
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* Slider CSS Document */
+
+.Slider img{
+	width:800px;
+	height:500px;
+	display:none;
+}
+
+.Slider{
+	width:800px;
+	height:500px;
+	overflow:hidden;
+	margin:10px auto;
+	border-radius:10px;
+	background-image:url(../images/loading.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+	box-shadow: 5px 10px 5px #888888;
+}
