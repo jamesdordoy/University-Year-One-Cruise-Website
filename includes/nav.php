@@ -6,11 +6,11 @@
 ?>
 <nav>
     <ul>
-        <li><a href="<?php echo $url ?>index.php">Home</a></li>
-        <li><a href="<?php echo $url ?>Cruises.php">Cruise Information</a></li>
-        <li><a href="<?php echo $url ?>contact.php">Contact Us</a></li>
-        <li><a href="<?php echo $url ?>standards.php">Web Standards</a></li>
-        <li><a href="<?php echo $url ?>development.php">Site Development</a></li>
+        <li><a href="<?php echo $url ?>cruisesite/index.php">Home</a></li>
+        <li><a href="<?php echo $url ?>cruisesite/Cruises.php">Cruise Information</a></li>
+        <li><a href="<?php echo $url ?>cruisesite/contact.php">Contact Us</a></li>
+        <li><a href="<?php echo $url ?>cruisesite/standards.php">Web Standards</a></li>
+        <li><a href="<?php echo $url ?>cruisesite/development.php">Site Development</a></li>
     </ul>
 </nav>
 
